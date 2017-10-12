@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CreateContact from '../createContact/CreateContact';
+import CreateContact from './createContact/CreateContact';
 import './header.css';
 
 export default class Header extends Component {

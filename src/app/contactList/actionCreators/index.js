@@ -11,13 +11,6 @@ export function deleteContact(id) {
   };
 }
 
-export function addContact(data) {
-  return {
-    type: 'ADD_CONTACT',
-    payload: { data }
-  };
-}
-
 export function updateContact(data, id) {
   return {
     type: 'UPDATE_CONTACT',
