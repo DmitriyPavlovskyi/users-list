@@ -1,0 +1,34 @@
+.create-wrapper {
+  width: 600px;
+  height: 350px;
+  position: fixed;
+  border: 1px solid black;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  box-shadow: 0 0 65px rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+.create-wrapper input,
+.create-wrapper select {
+  display: inline-block;
+  height: 32px;
+  padding: 4px 6px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #555;
+  vertical-align: middle;
+  border-radius: 4px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.create-wrapper button {
+  margin-left: 5px;
+}
